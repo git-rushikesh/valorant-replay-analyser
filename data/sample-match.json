@@ -1,0 +1,64 @@
+{
+  "matchId": "sample-match-001",
+  "map": "Ascent",
+  "result": "13-10",
+  "player": "Demo Player",
+  "agent": "Sova",
+  "rounds": [
+    {
+      "round": 1,
+      "result": "win",
+      "side": "attack",
+      "duration": 92,
+      "kills": 1,
+      "deaths": 0,
+      "damage": 146,
+      "credits": 4200,
+      "note": "Good early information gathering."
+    },
+    {
+      "round": 2,
+      "result": "loss",
+      "side": "attack",
+      "duration": 38,
+      "kills": 0,
+      "deaths": 1,
+      "damage": 54,
+      "credits": 2900,
+      "note": "Entered site without enough utility."
+    },
+    {
+      "round": 3,
+      "result": "win",
+      "side": "attack",
+      "duration": 105,
+      "kills": 2,
+      "deaths": 1,
+      "damage": 221,
+      "credits": 1500,
+      "note": "Strong trade and post-plant positioning."
+    },
+    {
+      "round": 4,
+      "result": "loss",
+      "side": "defense",
+      "duration": 24,
+      "kills": 0,
+      "deaths": 1,
+      "damage": 32,
+      "credits": 3900,
+      "note": "Rotated too early and gave up site control."
+    },
+    {
+      "round": 5,
+      "result": "win",
+      "side": "defense",
+      "duration": 87,
+      "kills": 2,
+      "deaths": 0,
+      "damage": 198,
+      "credits": 4600,
+      "note": "Patient hold and effective retake timing."
+    }
+  ]
+}

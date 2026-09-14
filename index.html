@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VALORANT Replay Analyser</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <div>
+        <p class="eyebrow">Replay Analysis Tool</p>
+        <h1>VALORANT Replay Analyser</h1>
+        <p class="subtitle">
+          Review rounds, identify mistakes, and create coaching notes.
+        </p>
+      </div>
+      <span class="status">Demo data</span>
+    </header>
+
+    <section class="match-card">
+      <div>
+        <span class="label">Map</span>
+        <strong id="map-name">Loading...</strong>
+      </div>
+      <div>
+        <span class="label">Score</span>
+        <strong id="match-score">--</strong>
+      </div>
+      <div>
+        <span class="label">Agent</span>
+        <strong id="agent-name">--</strong>
+      </div>
+      <div>
+        <span class="label">Player</span>
+        <strong id="player-name">--</strong>
+      </div>
+    </section>
+
+    <section class="metrics">
+      <article class="metric">
+        <span>Total rounds</span>
+        <strong id="total-rounds">--</strong>
+      </article>
+      <article class="metric">
+        <span>Round wins</span>
+        <strong id="round-wins">--</strong>
+      </article>
+      <article class="metric">
+        <span>Total kills</span>
+        <strong id="total-kills">--</strong>
+      </article>
+      <article class="metric">
+        <span>Total deaths</span>
+        <strong id="total-deaths">--</strong>
+      </article>
+    </section>
+
+    <section class="panel">
+      <div class="panel-heading">
+        <h2>Round timeline</h2>
+        <select id="round-filter">
+          <option value="all">All rounds</option>
+          <option value="win">Wins</option>
+          <option value="loss">Losses</option>
+        </select>
+      </div>
+
+      <div id="round-list" class="round-list">
+        <p>Loading rounds...</p>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Coaching notes</h2>
+      <div id="coaching-notes" class="notes">
+        <p>Select a round to view its analysis.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
